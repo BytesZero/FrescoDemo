@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/xml_bt_xml"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="xml加载资源"/>
+
+    <Button
+        android:id="@+id/xml_bt_xml_failure"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="xml设置加载失败的图片"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fresco:placeholderImage="@mipmap/android_icon"
+        fresco:failureImage="@mipmap/img_error"
+        android:id="@+id/xml_iv_show"/>
+
+</LinearLayout>
