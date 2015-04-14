@@ -24,6 +24,12 @@
         android:layout_height="100dp"
         fresco:placeholderImage="@mipmap/android_icon"
         fresco:failureImage="@mipmap/img_error"
+        fresco:roundedCornerRadius="50dp"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"
+        fresco:roundWithOverlayColor="#FFFF23"
+        fresco:roundingBorderWidth="1dp"
+        fresco:roundingBorderColor="#000000"
         android:id="@+id/xml_iv_show"/>
 
 </LinearLayout>
