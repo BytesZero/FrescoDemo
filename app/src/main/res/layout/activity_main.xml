@@ -23,6 +23,12 @@
         android:layout_height="45dp"
         android:text="Gif图片播放"/>
 
+    <Button
+        android:id="@+id/main_bt_xml_loading"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="设置loading"/>
+
 
 
 </LinearLayout>

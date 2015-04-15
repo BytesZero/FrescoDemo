@@ -25,6 +25,8 @@
         <activity android:name=".xml.ReloadActivity"/>
         //gif图片播放
         <activity android:name=".xml.GifActivity"/>
+        //loading设置
+        <activity android:name=".xml.LoadingActivity"/>
 
 
     </application>
