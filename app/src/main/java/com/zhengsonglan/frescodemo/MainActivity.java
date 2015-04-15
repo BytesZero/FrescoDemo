@@ -8,13 +8,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.zhengsonglan.frescodemo.xml.GifActivity;
 import com.zhengsonglan.frescodemo.xml.ReloadActivity;
 import com.zhengsonglan.frescodemo.xml.XmlActivity;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
     //initView
-    Button bt_xml,bt_xml_reload;
+    Button bt_xml,bt_xml_reload,bt_xml_gif;
 
 
     //initData
@@ -35,12 +36,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private void initEvent() {
         bt_xml.setOnClickListener(this);
         bt_xml_reload.setOnClickListener(this);
+        bt_xml_gif.setOnClickListener(this);
     }
 
     //初始化view
     private void initView() {
         bt_xml = (Button) findViewById(R.id.main_bt_xml);
         bt_xml_reload= (Button) findViewById(R.id.main_bt_xml_reload);
+        bt_xml_gif= (Button) findViewById(R.id.main_bt_xml_gif);
+
     }
 
     //点击事件
@@ -56,6 +60,11 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
             case R.id.main_bt_xml_reload: {
                 intent.setClass(MainActivity.this, ReloadActivity.class);
+
+                break;
+            }
+            case R.id.main_bt_xml_gif: {
+                intent.setClass(MainActivity.this, GifActivity.class);
 
                 break;
             }

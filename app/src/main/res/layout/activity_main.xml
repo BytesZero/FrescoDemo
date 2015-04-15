@@ -16,10 +16,13 @@
         android:text="xml设置点击重新加载图片"/>
 
 
+
     <Button
+        android:id="@+id/main_bt_xml_gif"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:text="xml加载资源"/>
+        android:text="Gif图片播放"/>
+
 
 
 </LinearLayout>

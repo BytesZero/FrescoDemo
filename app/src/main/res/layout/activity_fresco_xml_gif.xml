@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/xml_bt_xml_gif"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="gif播放/暂停"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        fresco:placeholderImage="@mipmap/android_icon"
+        android:id="@+id/xml_gif_iv_show"/>
+
+</LinearLayout>

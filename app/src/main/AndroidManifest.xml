@@ -23,6 +23,9 @@
         <activity android:name=".xml.XmlActivity"/>
         //点击重新加载图片
         <activity android:name=".xml.ReloadActivity"/>
+        //gif图片播放
+        <activity android:name=".xml.GifActivity"/>
+
 
     </application>
 
